@@ -1,0 +1,273 @@
+body, header {
+    background-image: url('img2/illustration04-2.png');
+    height: 5222px;
+    position: relative;
+    object-fit: none ;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lalezar', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px 20px;
+    position: center;
+
+}
+
+.frame-2, .frame-3 {
+    display: flex;
+    position: absolute;
+    font-size: 36px;
+    font-family: var(--font-lalezar);
+    color: #fff;
+    text-align: left;
+    padding: 150px 150px;
+    gap: 65px;
+}
+
+.text-wrapper {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.image1 {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 196px;
+}
+
+.frame-2 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    
+}
+
+.frame-3 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.custom-button1 {
+    justify-content: center;
+    top: 7%;
+    left: 40%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #b75d2f;
+    height: 20px;
+    width: 7%;
+    border: 1px solid #fff;
+}
+
+.custom-button1:hover {
+    background-color: #f5c905;
+    color: #fff;
+    cursor: pointer;
+}
+
+.custom-button2 {
+    justify-content: center;
+    top: 7%;
+    left: 50%;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #2a3a8c;
+    height: 20px;
+    width: 7%;
+    border: 1px solid #fff;
+}
+
+.custom-button2:hover {
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.shoto {
+    display: flex;
+    top: 7%;
+    left: 1%;
+    position: absolute;
+    font-size: 96px;
+    font-family: var(--font-lalezar);
+    color: #fff;
+    text-align: left;
+    padding: 150px 150px;
+}
+
+.shoto-todoroki {
+    top: 9%;
+    left: 1%;
+    position: absolute;
+    font-size: 36px;
+    font-family: 'League Spartan', sans-serif;
+    color: #fff;
+    padding: 150px 150px;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    line-height: 58px;
+
+}
+
+.shoki {
+    width: 100%;
+    top: 16%;
+    left: 10%;
+    position: absolute;
+    max-width: 80%;
+    overflow: hidden;
+}
+
+.aparencia {
+    display: flex;
+    top: 41%;
+    left: 1%;
+    position: absolute;
+    font-size: 96px;
+    font-family: var(--font-lalezar);
+    color: #fff;
+    text-align: left;
+    padding: 150px 150px;
+}
+
+.aparenciasho {
+    top: 43%;
+    left: 1%;
+    position: absolute;
+    font-size: 36px;
+    font-family: 'League Spartan', sans-serif;
+    color: #fff;
+    text-align: justify;
+    padding: 150px 150px;
+    display: inline-block;
+    margin: 0;
+    line-height: 58px;
+}
+
+.individualidade {
+    display: flex;
+    top: 52%;
+    left: 1%;
+    position: absolute;
+    font-size: 96px;
+    font-family: var(--font-lalezar);
+    color: #fff;
+    text-align: left;
+    padding: 150px 150px;
+}
+
+.poder {
+    top: 54%;
+    left: 1%;
+    position: absolute;
+    font-size: 36px;
+    font-family: 'League Spartan', sans-serif;
+    color: #fff;
+    text-align: justify;
+    padding: 150px 150px;
+    display: inline-block;
+    margin: 0;
+    line-height: 58px;
+}
+
+.galeria1 {
+    display: flex;
+    top: 69%;
+    left: 1%;
+    position: absolute;
+    font-size: 96px;
+    font-family: var(--font-lalezar);
+    color: #fff;
+    text-align: left;
+    padding: 150px 150px;
+}
+
+.s1 {
+    width: 30%;
+    top: 75%;
+    left: 5%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.s2 {
+    width: 30%;
+    top: 75%;
+    left: 34%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.s3 {
+    width: 30%;
+    top: 75%;
+    left: 65%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.s4 {
+    width: 30%;
+    top: 85%;
+    left: 2%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.s5 {
+    width: 30%;
+    top: 85%;
+    left: 32%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.s6 {
+    width: 30%;
+    top: 85%;
+    left: 66%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.rodape {
+    width: 100%;
+    position: absolute;
+    top: 98%;
+    background-color: #000;
+    height: 100px;
+    padding-top: 50px;
+    }
+
+    .texto-sobreposto {
+        position: absolute;
+        top: 99%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 24px;
+        z-index: 2;
+    }
+
+    .texto-sobreposto2 {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 24px;
+        z-index: 2;
+    }
